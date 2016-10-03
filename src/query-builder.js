@@ -1,3 +1,5 @@
+var doT = require('./dot.js');
+
 /*!
  * jQuery QueryBuilder 2.3.3
  * Copyright 2014-2016 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
@@ -8,12 +10,12 @@
 // Plugins: bt-checkbox, bt-selectpicker, bt-tooltip-errors, change-filters, filter-description, invert, mongodb-support, sortable, sql-support, unique-filter
 (function(root, factory) {
     if (typeof define == 'function' && define.amd) {
-        define(['jquery', 'doT'], factory);
+        define(['jquery'], factory);
     }
     else {
         factory(root.jQuery, root.doT);
     }
-}(this, function($, doT) {
+}(this, function($) {
 "use strict";
 
 // CLASS DEFINITION

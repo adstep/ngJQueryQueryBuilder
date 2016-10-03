@@ -17,9 +17,6 @@
   },
   "homepage": "https://github.com/adstep/ngJQueryQueryBuilder#readme",
   "dependencies": {
-    "dot": "git+https://github.com/adstep/doT.git",
-    "jQuery-QueryBuilder": "git+https://github.com/adstep/jQuery-QueryBuilder.git",
-    "jquery-extendext": "git+https://github.com/adstep/jQuery.extendext.git"
   },
   "devDependencies": {
     "gulp-typescript": "^3.0.2",
