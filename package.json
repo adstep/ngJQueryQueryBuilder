@@ -1,0 +1,31 @@
+{
+  "name": "ng-jquery-query-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adstep/ngJQueryQueryBuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adstep/ngJQueryQueryBuilder/issues"
+  },
+  "homepage": "https://github.com/adstep/ngJQueryQueryBuilder#readme",
+  "dependencies": {
+    "dot": "git+https://github.com/adstep/doT.git",
+    "jQuery-QueryBuilder": "git+https://github.com/adstep/jQuery-QueryBuilder.git",
+    "jquery-extendext": "git+https://github.com/adstep/jQuery.extendext.git"
+  },
+  "devDependencies": {
+    "gulp-typescript": "^3.0.2",
+    "imports-loader": "^0.6.5",
+    "ng-annotate-webpack-plugin": "^0.1.3",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3"
+  }
+}
