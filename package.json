@@ -16,13 +16,14 @@
     "url": "https://github.com/adstep/ngJQueryQueryBuilder/issues"
   },
   "homepage": "https://github.com/adstep/ngJQueryQueryBuilder#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-typescript": "^3.0.2",
     "imports-loader": "^0.6.5",
     "ng-annotate-webpack-plugin": "^0.1.3",
     "ts-loader": "^0.8.2",
-    "typescript": "^2.0.3"
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
   }
 }
